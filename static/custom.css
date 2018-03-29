@@ -1,0 +1,109 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+html{
+	height: 100%;
+} 
+
+body{
+	height: 100%;
+	overflow-x: hidden;
+}	
+
+.navbar	{
+	background-color: #191919;
+	font-family: "Poppins";
+	font-weight: 300;
+	padding-bottom: 0px !important;
+	padding-top: 0px !important;
+}
+.navbar-nav .nav-item {
+	border-bottom: 6px solid transparent;
+	padding-top: .2rem;
+	padding-bottom: .2rem
+}
+.navbar-nav > .active {
+	border-bottom: 6px solid orange;
+}
+.navbar-nav .nav-item:hover{
+	border-bottom: 6px solid orange;
+	
+
+}
+
+.dot-header > h1{
+	font-size: 10em;
+	font-weight: 700;
+}
+
+.wallet-header > h1{
+	font-size: 7em;
+	font-weight: 700;
+	color: #fff;
+}
+
+.wallet-header >h2{
+	color: #fff;
+}
+
+#row2{
+	background-image: linear-gradient(45deg, #1A3E5C, #197099);
+	border-bottom: 15px solid white;
+	border-left: 15px solid white;
+	border-right: 15px solid white;
+	border-top: 4.7rem solid white;
+}
+
+#stars-bg{
+	background-image: url('stars.png'); 
+	background-size: cover; 	
+	background-repeat: repeat;
+}
+#row1{
+	background-image: linear-gradient(45deg, #D4DDE4, #FFFFFF);
+	border-bottom: 15px solid white;
+	border-top: 4.3rem solid white;
+}
+#row1:hover{
+	transform: translateZ(20px);
+}
+
+#row3col1{
+	border-bottom: 15px solid white;
+	border-top: 4.7rem solid white;	
+	border-left: 15px solid white;
+	border-right: 7px solid white;
+	background-image: linear-gradient(45deg, #AD6E12, #6BAFAA);
+}
+#row3col2{
+	border-bottom: 15px solid white;
+	border-top: 4.7rem solid white;
+	border-right: 15px solid white;
+	border left: 8px solid white;
+	background-image: linear-gradient(45deg, #421C68, #C81741);
+}
+
+.assistant-header > h1{
+	font-size: 7em;
+	font-weight: 700;
+	color: #fff;
+}
+
+.assistant-header > h2{
+	color: #fff;
+}
+
+
+#footer{
+	background-color: #191919;
+}
+
+.list-inline-item > a{
+	color: #fff;
+}
+.h6 > a{
+	color: #fff;
+}
+.h6{
+	padding-bottom: 20px;
+}
+
